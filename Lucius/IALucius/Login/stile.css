@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    box-shadow: #f20303;
+}
+
+body{
+    width: 50%;
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url('../imagens/number.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #030303;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+}

@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    box-shadow: #f20303;
+}
+
+body{
+    width: 50%;
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url('../IALucius/imagens/number.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    text-align:start;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 100px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+input{
+    display: block;
+    margin: 30px auto;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(5, 241, 68);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 25px;
+}
